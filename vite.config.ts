@@ -11,7 +11,13 @@ export default defineConfig({
       fileName: (format) => `psu-ui.${format}.tsx`,
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: [
+        "react",
+        "react-dom",
+        "tailwindcss",
+        "autoprefixer",
+        "postcss",
+      ],
       output: {
         globals: {
           react: "React",
