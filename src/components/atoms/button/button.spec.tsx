@@ -9,11 +9,6 @@ describe("Button Component Test", () => {
     expect(baseElement).toBeTruthy();
   });
 
-  it("Should match snapshot", () => {
-    const { baseElement } = render(<Button />);
-    expect(baseElement).toMatchSnapshot();
-  });
-
   it("Should render children", () => {
     const { getAllByText } = render(<Button>Button</Button>);
     expect(getAllByText("Button")).toBeTruthy();

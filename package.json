@@ -1,7 +1,25 @@
 {
   "name": "@psu/ui",
-  "private": true,
   "version": "0.0.0",
+  "description": "An Open Source React UI Kit Build with Love from PSU Devteam",
+  "author": "PSU Dev Team",
+  "license": "MIT",
+  "keywords": [
+    "React Component",
+    "UI Kit"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/psu-ui.umd.js",
+  "module": "./dist/psu-ui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/psu-ui.es.js",
+      "require": "./dist/psu-ui.umd.js"
+    }
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
