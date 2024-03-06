@@ -6,7 +6,7 @@ export default defineWorkspace([
   {
     test: {
       name: "happy-dom",
-      root: "./shared_tests",
+      root: "./src",
       environment: "happy-dom",
       setupFiles: ["./setup.happy-dom.ts"],
     },
@@ -14,7 +14,7 @@ export default defineWorkspace([
   {
     test: {
       name: "node",
-      root: "./shared_tests",
+      root: "./src",
       environment: "node",
       setupFiles: ["./setup.node.ts"],
     },
