@@ -12,12 +12,12 @@
     "dist",
     "README.md"
   ],
-  "main": "./dist/@psu-ui.umd.js",
-  "module": "./dist/@psu-ui.es.js",
+  "main": "./dist/psu-ui.umd.js",
+  "module": "./dist/psu-ui.es.js",
   "exports": {
     ".": {
-      "import": "./dist/@psu-ui.es.js",
-      "require": "./dist/@psu-ui.umd.js"
+      "import": "./dist/psu-ui.es.js",
+      "require": "./dist/psu-ui.umd.js"
     }
   },
   "type": "module",

@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/components/index.ts"),
       name: "@psu-ui",
-      fileName: (format) => `@psu-ui.${format}.tsx`,
+      fileName: (format) => `psu-ui.${format}.tsx`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
