@@ -1,5 +1,5 @@
 {
-  "name": "@psu/ui",
+  "name": "@psu-ui",
   "version": "0.0.0",
   "description": "An Open Source React UI Kit Build with Love from PSU Devteam",
   "author": "PSU Dev Team",
@@ -12,12 +12,12 @@
     "dist",
     "README.md"
   ],
-  "main": "./dist/psu-ui.umd.js",
-  "module": "./dist/psu-ui.es.js",
+  "main": "./dist/@psu-ui.umd.js",
+  "module": "./dist/@psu-ui.es.js",
   "exports": {
     ".": {
-      "import": "./dist/psu-ui.es.js",
-      "require": "./dist/psu-ui.umd.js"
+      "import": "./dist/@psu-ui.es.js",
+      "require": "./dist/@psu-ui.umd.js"
     }
   },
   "type": "module",
