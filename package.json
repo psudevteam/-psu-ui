@@ -18,6 +18,10 @@
     ".": {
       "import": "./dist/psu-ui.es.js",
       "require": "./dist/psu-ui.umd.js"
+    },
+    "psu.css": {
+      "import": "./dist/psu.css",
+      "require": "./dist/psu.css"
     }
   },
   "type": "module",
