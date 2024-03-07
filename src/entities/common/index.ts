@@ -12,11 +12,8 @@ export type TVariant =
 
 export type TVariantType = "solid" | "outline";
 
-export type TState = "default" | "loading";
-
 export type TStyle = {
-  size?: TSize;
-  variant?: TVariant;
-  variantType?: TVariantType;
-  state?: TState;
+  size: TSize;
+  variant: TVariant;
+  variantType: TVariantType;
 };

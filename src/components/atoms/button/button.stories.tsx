@@ -28,11 +28,6 @@ const meta: Meta<typeof Button> = {
       defaultValue: "solid",
       control: { type: "radio" },
     },
-    state: {
-      options: ["default", "loading"],
-      defaultValue: "default",
-      control: { type: "radio" },
-    },
     disabled: {
       control: { type: "boolean" },
     },
@@ -48,7 +43,6 @@ export const Primary: Story = {
     variantType: "solid",
     size: "sm",
     children: "Button Primary",
-    state: "default",
   },
 };
 
@@ -58,6 +52,5 @@ export const Secondary: Story = {
     size: "sm",
     variantType: "solid",
     children: "Button Secondary",
-    state: "default",
   },
 };
